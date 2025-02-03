@@ -26,9 +26,9 @@ This project is a simple API for signing and sending Ethereum transactions using
 
 or
 
-    ```bash
-    yarn install
-    ```
+     ```bash
+     yarn install
+     ```
 
 3. Create a .env file in the root of the project and add the following environment variables:
    ```Env
