@@ -52,7 +52,7 @@ Returns a simple status message.
 
 Signs a transaction.
 
-Request body parameters:
+- Request body parameters:
 
 ```Json
 {
@@ -64,7 +64,7 @@ Request body parameters:
 ### POST ```/send-transaction```
 
 Sends a transaction.
-Request body parameters:
+- Request body parameters:
 
 ```Json
 {
