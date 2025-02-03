@@ -1,0 +1,34 @@
+# Node.js modules
+node_modules/
+
+# dotenv files
+.env
+
+# Logs
+logs/
+*.log
+npm-debug.log*
+yarn-debug.log*
+yarn-error.log*
+
+# Directories for temporary files
+tmp/
+temp/
+*.tmp
+
+# Build directories
+build/
+dist/
+
+# Dependency directories
+jspm_packages/
+
+# IDE and editor directories and files
+.idea/
+.vscode/
+*.swp
+*.swo
+
+# System files
+.DS_Store
+Thumbs.db
