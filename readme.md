@@ -24,13 +24,14 @@ This project is a simple API for signing and sending Ethereum transactions using
    npm install
    ```
 
-or
+   or
 
-    ```bash
+   ```bash
     yarn install
     ```
 
-3. Create a .env file in the root of the project and add the following environment variables:
+
+3. Create a ```.env``` file in the root of the project and add the following environment variables:
    ```Env
    INFURA_API_KEY=your_infura_api_key
    PRIVATE_KEY=your_private_key
@@ -39,15 +40,15 @@ or
 
 ## Usage
 
-The server will be available at http://localhost:3000
+The server will be available at ```http://localhost:3000```
 
 ### API Endpoints
 
-### GET /
+### GET ```/```
 
 Returns a simple status message.
 
-### POST /sign-transaction
+### POST ```/sign-transaction```
 
 Signs a transaction.
 
@@ -60,7 +61,7 @@ Request body parameters:
 }
 ```
 
-### POST /send-transaction
+### POST ```/send-transaction```
 
 Sends a transaction.
 Request body parameters:
